@@ -14,7 +14,7 @@
       <nav class="header__menu">
         <ul class="header__links-list">
           <li class="header__links-list-item_no-bullit">
-            <a class="header__link_active">главная</a>
+            <a class="header__link_active" href="#main_page">главная</a>
           </li>
           <li class="header__links-list-item">
             <a class="header__link" href="#lots">посмотреть лоты</a>
@@ -31,36 +31,29 @@
         alt="Логотип"
         />
       </a>
-      <div class="address header__address">
+      <address class="address header__address">
         <a href="tel:+99995555555">+9 999 555 5555</a>
         <br>
         <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
         <br>
-        <address class=" address">наб. Принсенграхт 263- 265, Амстердам</address>
-      </div>
+        <p class=" address">наб. Принсенграхт 263- 265, Амстердам</p>
+      </address>
     </header>
     <main>
       <section class="cover">
         <div class="overlay"></div>
         <h1 class="cover__title">
-          <span class="aligned-text letter-spacing-30">О<span class="letter-spacing-60">НО</span></span>
-          <span class="aligned-text_center letter-spacing-30">ТЕ<span class="letter-spacing-60">БЕ</span></span>
-          <span class="aligned-text_right letter-spacing-60">Н<span class="letter-spacing-30">АД</span><span class="letter-spacing-0">О</span></span>
+          <span class="aligned-text letter-spacing-extended-small">О<span class="letter-spacing-extended-middle">но</span></span>
+          <span class="aligned-text_center letter-spacing-extended-small">те<span class="letter-spacing-extended-middle">бе</span></span>
+          <span class="aligned-text_right letter-spacing-extended-middle">н<span class="letter-spacing-extended-small">ад</span><span class="no-letter-spacing">о</span></span>
         </h1>
         <div class="cover__description">
-          <p class="cover__description-text">
-            Аукцион<span class="letter-spacing-90"> </span>
-            вещей,<span class="letter-spacing-90"> </span>
-            <span class="letter-spacing-30">в </span>
-            которые<span class="letter-spacing-90"> </span>
-            никто<span class="letter-spacing-90"> </span>
-            не<span class="letter-spacing-90"> </span>верил
-          </p>
+          <p class="cover__description-text">Аукцион вещей, в которые никто не верил</p>
           <button class="bet-button">Сделать ставку</button>
         </div>
       </section>
       <section class="lots" id="lots">
-        <h2 class="lots__heading">ЛОТЫ</h2>
+        <h2 class="lots__heading">Лоты</h2>
         <ul class="lots__card-list">
           <li class="lots__card-list-item">
             <a class="card-link" href="#film">
@@ -118,33 +111,35 @@
             alt="Логотип"
             />
           </a>
-          <h2 class="about__title">ОБ АУКЦИОНЕ</h2>
-          <p class="about__text">
-            <span class="text-bottom-space">
+          <h2 class="about__title">Об аукционе</h2>
+          <div class="about__text">
+            <p>
               Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. 
               Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка 
               или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?
-            </span>
-            Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками. 
-            Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря на критику, кажущуюся простоту 
-            или сложность, сейчас без этих лотов невозможно представить современную культуру. Когда в эти вещи не верил 
-            никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми. 
-          </p>
+            </p>
+            <p>
+              Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками. 
+              Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря на критику, кажущуюся простоту 
+              или сложность, сейчас без этих лотов невозможно представить современную культуру. Когда в эти вещи не верил 
+              никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми. 
+            </p>
+          </div>
         </div>
       </section>
     </main>
     <footer class="footer">
-      <div class="address">
+      <address class="address">
         <a href="tel:+99995555555">+9 999 555 5555</a>
         <br>
         <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
         <br>
-        <address class="address">наб. Принсенграхт 263- 265, Амстердам</address>
-      </div>
+        <p class="address">наб. Принсенграхт 263- 265, Амстердам</p>
+      </address>
       <nav class="footer__menu">
         <ul class="footer__menu-list">
           <li class="footer__menu-list-item">
-            <a class="footer__menu-link_active">главная</a>
+            <a class="footer__menu-link_active" href="#main_page">главная</a>
           </li>
           <li class="footer__menu-list-item">
             <a class="footer__menu-link" href="#lots">посмотреть лоты</a>
@@ -154,32 +149,37 @@
           </li>
         </ul>
       </nav>
-      <ul class="footer__social-list">
-        <li class="footer__social-list-item">
-          <a class="footer__social-link" href="#yt">
-            <img 
-            src="./images/yt.svg" 
-            alt="Иконка Ютуб" 
-            class="footer__social-icon">
-          </a>
-        </li>
-        <li class="footer__social-list-item">
-          <a class="footer__social-link" href="#vk">
-            <img 
-            src="./images/vk.svg" 
-            alt="Иконка ВКонтакте" 
-            class="footer__social-icon">
-          </a>
-        </li>
-        <li class="footer__social-list-item">
-          <a class="footer__social-link" href="#pinterest">
-            <img
-            src="./images/pinterest.svg"
-            alt="Иконка Пинтерест"
-            class="footer__social-icon">
-          </a>
-        </li>
-      </ul>
+      <nav>
+        <ul class="footer__social-list">
+          <li class="footer__social-list-item">
+            <a class="footer__social-link" href="#yt">
+              <img 
+              src="./images/yt.svg" 
+              alt="Иконка Ютуб" 
+              class="footer__social-icon"
+              target="_blank">
+            </a>
+          </li>
+          <li class="footer__social-list-item">
+            <a class="footer__social-link" href="#vk">
+              <img 
+              src="./images/vk.svg" 
+              alt="Иконка ВКонтакте" 
+              class="footer__social-icon"
+              target="_blank">
+            </a>
+          </li>
+          <li class="footer__social-list-item">
+            <a class="footer__social-link" href="#pinterest">
+              <img
+              src="./images/pinterest.svg"
+              alt="Иконка Пинтерест"
+              class="footer__social-icon"
+              target="_blank">
+            </a>
+          </li>
+        </ul>
+      </nav>
     </footer>
   </body>
 </html>

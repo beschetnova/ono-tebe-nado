@@ -5,8 +5,7 @@
 }
 
 body {
-  width: 1100px;
-  /* min-width: 1100px; если нужно растягивание контента при увеличении экрана*/ 
+  width: 1100px; /* min-width: 1100px; если нужно растягивание контента при увеличении экрана*/ 
   margin: 0 auto;
   font-family: Raleway, sans-serif;
 }

@@ -47,7 +47,8 @@
 }
 
 .header__address {
-    margin-left: 184px;
+    margin-left: auto;
+    margin-right: 25px;
 }
 
 .cover {
@@ -152,8 +153,7 @@
     font-size: 40px;
     font-weight: 700;
     text-transform: uppercase;
-    position: relative;
-    left: 40px;
+    margin-left: 40px;
     margin-bottom: 27px;
 }
 

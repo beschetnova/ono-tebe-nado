@@ -6,7 +6,6 @@ ___
 https://github.com/user-attachments/assets/8bbc197b-480f-4651-a222-2dd7c4805447
 
 
-### Деплой  
 Посмотреть проект можно [по ссылке на GitHub Pages](https://beschetnova.github.io/ono-tebe-nado_auction/)  
 ___
 ### Технологии

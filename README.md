@@ -1,10 +1,14 @@
-# Проект «Оно тебе надо»  
+# Сайт аукциона «Оно тебе надо»  
+___
+Вёрстка [макета](https://www.figma.com/design/unBuocGdAfnegz1sE0MknV/%232-Оно-тебе-надо?node-id=0-1&t=kyeNLQfyfejvSvAt-0) одностраничного сайта для отработки базовых навыков HTML и CSS
 
-Вёрстка [макета](https://www.figma.com/design/unBuocGdAfnegz1sE0MknV/%232-Оно-тебе-надо?node-id=0-1&t=kyeNLQfyfejvSvAt-0) одностраничного сайта для отработки базовых навыков HTML и CSS в рамках курса по frontend-разработке от Яндекс Практикума
+
+https://github.com/user-attachments/assets/8bbc197b-480f-4651-a222-2dd7c4805447
+
 
 ### Деплой  
-[ссылка на GitHub Pages](https://beschetnova.github.io/ono-tebe-nado/)  
-
+Посмотреть проект можно [по ссылке на GitHub Pages](https://beschetnova.github.io/ono-tebe-nado_auction/)  
+___
 ### Технологии
 * HTML
 * CSS
@@ -19,7 +23,7 @@
 * выбор корректных названий классов
 * работа с DevTools
 
-
+*Проект выполнен в рамках курса "Фронтенд-разработчик" от Яндекс Практикума*
 
 
 
